@@ -2,8 +2,10 @@
   font-family: lato;
 }
 
-header {
+header ul {
   background-color: #EFDBDB;
+  display: flex;
+  flex-direction: row;
 }
 
 li {
@@ -12,15 +14,6 @@ li {
 
 a {
   text-decoration: none;
-}
-
-header {
-  display: block;
-}
-
-
-a:link {
-    color: grey;
 }
 
 /* visited link */
@@ -38,35 +31,22 @@ a:active {
     color: yellow;
 }
 
-#block {
-  background-color: #533B3B;
-  float: left;
-  width: 33.33%;
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
 }
 
-#images {
-  float: right;
-  width: 33.33%;
-  height: 100% vh;
+form {
+  width: 70%;
 }
 
-.topnav {
-    overflow: hidden;
-    background-color: #333;
+nav {
+  background-color:#564545;
+  height: 100vh;
 }
 
-/* Navbar links */
-.topnav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-/* Links - change color on hover */
-.topnav a:hover {
-    background-color: #ddd;
-    color: black;
+.links {
+  padding: 4rem;
+  text-color: white;
 }
